@@ -14,3 +14,10 @@ console.log(result);
 
 result = evenOrOdd(2);
 console.log(result);
+
+//versi pendek
+function evenOrOdd2(number) {
+  return number % 2 === 0 ? "Even" : "Odd";
+}
+result = evenOrOdd2(1);
+console.log(result);
